@@ -8,7 +8,7 @@
     <h2>
         <span class="title"><span class="strikethrough"></span><strong><x:value-of select="@name"/></strong></span>
         <span class="target disabled"><span class="strikethrough"></span><strong>N/A</strong></span>
-        <span class="status yellow"><span class="strikethrough"></span></strong><x:value-of select="@status"/></strong></span>
+        <span class="status yellow"><span class="strikethrough"></span><strong><x:value-of select="@status"/></strong></span>
     </h2>
     <p class="info"><span class="label">Что:</span><x:value-of select="description" /></p>
     <p class="crew"><span class="label">Кто:</span>
