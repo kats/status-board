@@ -48,11 +48,6 @@
 
     }
 
-    h1:before {
-        content: url(http://culturedcode.com/status/airport-arrivalsicon.png);
-        padding-right: 10px;
-    }
-
 
     /* LEGEND */
     
@@ -293,15 +288,3 @@
             text-transform: uppercase;
             text-shadow: 0px -1px 0px #000;
         }
-
-
-        .project .person {
-            margin-right: 5px;
-        }
-
-        .project .person:before {
-            content: url(http://culturedcode.com/status/airport-display-person.png);
-            padding-right: 3px;
-        }
-
-
