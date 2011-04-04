@@ -15,6 +15,9 @@
         <x:apply-templates select="people/person" />
     </p>
     <p class="eta"><span class="label">Кагдила:</span><x:value-of select="status"/></p>
+    <x:for-each select="message[position() &lt; 4]">
+        <p class="eta"><span class="label"><x:value-of select="@date"/></span><x:value-of select="."/></p>
+    </x:for-each>
 </li>
 </x:template>
 
